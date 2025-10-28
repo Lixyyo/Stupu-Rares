@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+     
+        <link rel ="stylesheet" type="text/css" href="Ex2css.css"/>
+        <Title>Formular de inregistrare animale</Title>
+    </head>
+    <body bgcolor="F7A5A5"> 
+        <h1 class = "centrat">Formular de inregistrare animale</h1>
+        <p class="centrat">Inregistreaza-ti animalutul mai jos pentru a-l programa la Clinica</p>
+        <div class="Formular">
+        <form>
+            <div class="form-group">
+            <label  for="nume">Nume Stapan:</label>
+            <input  type="text" id="nume" name="nume"><br>
+           
+            <label for="telefon">Telefon:</label>
+            <input type="number" id="telefon" name="telefon"><br>
+
+            <label for="NumeA">Nume Animal:</label>
+            <input type="text" id="numeA" name="numeA"><br>
+
+            <label for="proprietar">Nume proprietar:</label>
+            <input type="text" id="proprietar" name="proprietar"><br>
+
+            <label for="specie">Specie:</label>
+            <select>
+              <option value="caine">Caine</option>
+              <option value="pisica">Pisica</option>
+              <option value="papagal">Papagal</option>
+              <option value="Arici">Arici</option>
+              <option value="Hamster">Hamster</option>
+              <option value="Guineea">Guineea</option>
+            </select><br>
+            </div>
+
+            <div style = "border-color: rgb(197, 179, 16); border-style: solid; border-width: 5px;" >
+
+            <label for="Sexul animalului">Sexul animalului</label><br><br>
+            <label for="masculin">Masculin</label>
+            <input type="radio" id="masculin" name="sex" value="masculin"><br>
+            <label for="feminin">Feminin</label>
+            <input type="radio" id="feminin" name="sex" value="feminin"><br>
+</div><br>
+            <div style = "border-color: rgb(197, 179, 16); border-style: solid; border-width: 5px;" >
+            <label for="Servicii Dorite">Servicii Dorite</label><br><br>
+            <input type="checkbox" id="vaccinare" name="servicii" value="vaccinare">
+            <label for="vaccinare">Vaccinare</label><br>
+            <input type="checkbox" id="deparazitare" name="servicii" value="deparazitare">
+            <label for="deparazitare">Deparazitare</label><br>
+            <input type="checkbox" id="Consult" name="servicii" value="chirurgie">
+            <label for="Consult">Consultatie</label><br>
+            </div><br>
+             <div style = "border-color: rgb(197, 179, 16); border-style: solid; border-width: 5px;" >
+            <label for="Observatii">Observatii</label><br><br>
+            <textarea id="Observatii" name="Observatii" rows="4" cols="50"></textarea><br>
+            </div><br>
+            <div class = "container">
+            <button class = "buton-stanga" type="submit">Trimite</button>
+            <button class = "buton-dreapta" type="reset">Reseteaza</button>
+            
+            </div>
+            </div>
+
+
+        
+        </form>
+        
+    </body>
+</head>
+</html>

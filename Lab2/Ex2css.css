@@ -1,0 +1,40 @@
+.centrat {
+    text-align: center;
+    color: black;
+
+}
+.Formular{
+    background-color: rgb(240, 75, 149);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 50px auto;
+    width:500px;
+    height: auto;
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;       
+    margin-top: 10px;
+}
+.container {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;            
+      width: 100%;                    
+                      
+    }
+    button {
+
+  font-size: 12px;
+  cursor: pointer;
+}
+.buton-stanga:hover {
+  background-color: #00c00a; 
+  transform: scale(1.05);
+}
+
+.buton-dreapta:hover {
+  background-color: #a53737; 
+  transform: scale(1.05);
+}
