@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coș de cumpărături | La Butoiu' cu Tutun</title>
+  <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-top">
+      <h1 class="site-title">La Butoiu' cu Tutun</h1>
+      <div class="auth-buttons">
+        <a href="SignUp.html" class="auth-btn">Sign Up</a>
+        <a href="Login.html" class="auth-btn">Log In</a>
+      </div>
+    </div>
+
+    <h2 class="slogan">Oriunde în România și la orice oră!</h2>
+
+    <nav class="navbar">
+      <a href="Home.html">Acasă</a>
+      <a href="Tutun.html">Tutun</a>
+      <a href="Filtre.html">Filtre</a>
+      <a href="Foite.html">Foițe</a>
+      <a href="Detalii.html">Detalii</a>
+      <a href="Cos.html" class="active">Coș</a>
+    </nav>
+  </header>
+  <!-- ===== END HEADER ===== -->
+
+  <main>
+    <section class="cart-section">
+      <h2>Coșul tău de cumpărături</h2>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Produs</th>
+            <th>Cantitate</th>
+            <th>Preț</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tutun Aromat 50g</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>15.00 RON</td>
+            <td>15.00 RON</td>
+          </tr>
+          <tr>
+            <td>Filtre Slim</td>
+            <td><input type="number" value="2" min="1"></td>
+            <td>7.99 RON</td>
+            <td>15.98 RON</td>
+          </tr>
+          <tr>
+            <td>Foițe Naturale</td>
+            <td><input type="number" value="1" min="1"></td>
+            <td>4.99 RON</td>
+            <td>4.99 RON</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" style="text-align:right;"><strong>Total:</strong></td>
+            <td><strong>35.97 RON</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div class="cart-actions">
+        <button class="checkout-btn">Finalizează comanda</button>
+        <button class="continue-btn">Continuă cumpărăturile</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>La Butoiu' cu Tutun</h3>
+        <p>Produse premium pentru fumători, livrate rapid oriunde în România.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>📍 Str. Tutunului nr. 10, București</p>
+        <p>📞 0723 456 789</p>
+        <p>📧 contact@labutoiucututun.ro</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 La Butoiu' cu Tutun. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
