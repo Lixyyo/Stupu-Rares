@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitiul_5</title>
+</head>
+<body>
+    <h1>Exercițiul 5 Determinarea tipului unui triunghi</h1>
+
+    <script>
+        
+        let a = 9;
+        let b = 9;
+        let c = 8;
+
+        
+        if (a + b > c && a + c > b && b + c > a) {
+            console.log("Cele trei laturi pot forma un triunghi!");
+
+            if (a === b && b === c) {
+                console.log("Triunghiul este echilateral (toate laturile egale).");
+            } else if (a === b || a === c || b === c) {
+                console.log("Triunghiul este isoscel (două laturi egale).");
+            } else {
+                console.log("Triunghiul este oarecare (toate laturile diferite).");
+            }
+        } else {
+            console.log("Cele trei laturi NU pot forma un triunghi!");
+        }
+
+        
+    </script>
+</body>
+</html>
