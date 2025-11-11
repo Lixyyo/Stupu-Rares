@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Butoiu' cu Tutun</title>
+  <title>Sign Up | La Butoiu' cu Tutun</title>
   <link rel="stylesheet" href="Home.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -26,18 +26,47 @@
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Bine ați venit!</h2>
-      <p>Descoperă tutunul de cea mai bună calitate, livrat rapid oriunde în țară. Produse premium pentru pasionații adevărați.</p>
+    <section class="signup-section">
+      <h2>Creare cont nou</h2>
+      <form class="signup-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Introduceți username-ul" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Introduceți adresa de email" required>
+
+        <label for="password">Parolă:</label>
+        <input type="password" id="password" name="password" placeholder="Introduceți parola" required>
+
+        <label for="confirm_password">Confirmare parolă:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Reintroduceți parola" required>
+
+        <div class="form-options">
+          <label>
+            <input type="checkbox" id="terms" name="terms" required>
+            Sunt de acord cu <a href="#">Termenii și condițiile</a>.
+          </label>
+
+          <label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            Abonați-vă la newsletter.
+          </label>
+        </div>
+
+        <input type="submit" value="Creează cont">
+      </form>
+      <p class="login-text">Aveți deja cont? <a href="Login.html">Autentificați-vă aici</a>.</p>
     </section>
   </main>
 
- <footer>
+  <footer>
   <div class="footer-container">
     <div class="footer-section">
       <h3>La Butoiu' cu Tutun</h3>
       <p>Produse premium pentru fumători, livrate rapid oriunde în România.</p>
     </div>
+
+ 
 
     <div class="footer-section">
       <h4>Contact</h4>

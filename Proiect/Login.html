@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Butoiu' cu Tutun</title>
+  <title>Log In | La Butoiu' cu Tutun</title>
   <link rel="stylesheet" href="Home.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -26,18 +26,29 @@
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Bine ați venit!</h2>
-      <p>Descoperă tutunul de cea mai bună calitate, livrat rapid oriunde în țară. Produse premium pentru pasionații adevărați.</p>
+    <section class="login-section">
+      <h2>Log In</h2>
+      <form class="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Introduceți username-ul" required>
+
+        <label for="password">Parolă:</label>
+        <input type="password" id="password" name="password" placeholder="Introduceți parola" required>
+
+        <input type="submit" value="Autentificare">
+      </form>
+      <p class="signup-text">Nu aveți cont? <a href="#">Creați unul acum</a>.</p>
     </section>
   </main>
 
- <footer>
+  <footer>
   <div class="footer-container">
     <div class="footer-section">
       <h3>La Butoiu' cu Tutun</h3>
       <p>Produse premium pentru fumători, livrate rapid oriunde în România.</p>
     </div>
+
+
 
     <div class="footer-section">
       <h4>Contact</h4>
